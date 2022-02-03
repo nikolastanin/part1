@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.profile-image {
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+.profile-image:hover {
+  border: solid 2px #adb5bd;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
+  background: #adb5bd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+#pages .col .pages-img {
+  width: 20%;
+}
+
+#pages a {
+  background-color: #adb5bd;
+  padding: 5px;
+}
+
+#pages a:hover {
+  color: red;
+  padding: 8px;
+  -webkit-transition: padding 0.3s;
+  transition: padding 0.3s;
+}
+
+.navbar {
+  padding: 30px;
+}
+
+.navbar a.nav-link {
+  font-size: 1.5rem;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  background-color: #adb5bd;
+  border: 1px solid #adb5bd;
+  border-radius: 4px;
+}
+
+.image1 {
+  background-image: url(https://images.pexels.com/photos/457883/pexels-photo-457883.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image2 {
+  background-image: url(https://images.pexels.com/photos/346895/pexels-photo-346895.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image3 {
+  background-image: url(https://images.unsplash.com/photo-1437651025703-2858c944e3eb?ixlib=rb-0.3.5&s=a7353a294a4d38b512c25818a680431a&auto=format&fit=crop&w=750&q=80);
+}
+
+.image4 {
+  background-image: url(https://images.unsplash.com/photo-1441555136638-e47c0158bfc9?ixlib=rb-0.3.5&s=b2292e1fe6780e7854c8245c31b0aa33&auto=format&fit=crop&w=753&q=80);
+}
+
+.image5 {
+  background-image: url(https://images.pexels.com/photos/37403/bora-bora-french-polynesia-sunset-ocean.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image6 {
+  background-image: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image7 {
+  background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image8 {
+  background-image: url(https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+.image9 {
+  background-image: url(https://images.pexels.com/photos/37730/sunset-boat-sea-ship-37730.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+}
+
+#collage-section {
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
